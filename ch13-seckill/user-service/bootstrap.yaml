@@ -1,0 +1,19 @@
+
+http:
+  host: 192.168.50.16
+  port: 9009
+
+rpc:
+  host: 192.168.50.16
+  port: 9108
+
+discover:
+  Host: 127.0.0.1
+  port: 8500
+  instanceId: user-service-localhost
+  serviceName: user
+
+config:
+  id: config-service
+  profile: "dev"
+  label: "master"

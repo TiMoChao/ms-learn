@@ -1,0 +1,25 @@
+
+http:
+  host: 127.0.0.1
+  port: 8888
+
+
+discover:
+  Host: 127.0.0.1
+  port: 8500
+  instanceId: config-service-localhost
+  serviceName: config-service
+
+trace:
+  host: 127.0.0.1
+  port: 9411
+  url: /api/v2/spans
+
+config:
+  id: config-service
+  profile: "dev"
+  label: "master"
+
+rpc:
+  host: localhost
+  port: 9137

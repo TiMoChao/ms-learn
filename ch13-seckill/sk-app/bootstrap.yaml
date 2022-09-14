@@ -1,0 +1,21 @@
+
+http:
+  host: 192.168.50.16
+  port: 9031
+
+
+rpc:
+  host: 192.168.50.16
+  port: 9132
+
+discover:
+  Host: 127.0.0.1
+  port: 8500
+  instanceId: sk-app-localhost
+  serviceName: sk-app # 要缓存sk-app
+
+
+config:
+  id: config-service
+  profile: "dev"
+  label: "master"

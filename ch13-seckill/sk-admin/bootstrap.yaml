@@ -1,0 +1,20 @@
+
+http:
+  host: 192.168.50.16
+  port: 9030
+
+rpc:
+  host: 192.168.50.16
+  port: 9132
+
+discover:
+  Host: 127.0.0.1
+  port: 8500
+  instanceId: sk-admin-localhost
+  serviceName: sk-admin
+
+
+config:
+  id: config-service
+  profile: "dev"
+  label: "master"
